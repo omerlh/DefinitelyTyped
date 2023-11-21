@@ -72,7 +72,7 @@ declare class sftp {
 declare namespace sftp {
     interface ConnectOptions extends ssh2.ConnectConfig {
         retries?: number;
-        retry_factor?: number;
+        factor?: number;
         retry_minTimeout?: number;
     }
 
